@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+click = ">=5.0"
+gevent = "==1.4.0"
+gunicorn = ">=19.1.1"
+supervisor = "==4.0.2"
+environs = "==4.0.0"
+Flask = "==1.0.2"
+Werkzeug = "==0.14.1"
+Flask-SQLAlchemy = "==2.3.2"
+SQLAlchemy = "==1.2.11"
+Flask-Migrate = "==2.2.1"
+Flask-WTF = "==0.14.2"
+WTForms = "==2.2.1"
+Flask-Webpack = "==0.1.0"
+Flask-Login = "==0.4.1"
+Flask-Bcrypt = "==0.7.1"
+Flask-Caching = ">=1.0.0"
+Flask-DebugToolbar = "==0.10.1"
+
+[requires]
+python_version = "3.7"
